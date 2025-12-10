@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>INTERACTIVE MAP OF AUJRC</title>
+        <link rel="icon" type="image/png" href="au logo.png">
+
+        <style>
+            body{
+    background-color: hsl(235, 74%, 51%);
+}
+#img1{
+    float: left;
+    margin-right: 20px;
+}
+#h{
+    color: hsl(240, 86%, 16%);
+    font-family: 'Arial Black', sans-serif;
+    border: 5px solid hsl(0, 79%, 46%);
+    border-width: 5px;
+    border-radius: 10px;
+    width: fit-content;
+    display: inline-block;
+}
+button{
+    font-size: 13px;
+    background-color: hsl(240, 57%, 32%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#map{
+    border: 5px solid hsl(0, 79%, 46%);
+    border-width: 5px;
+    border-radius: 10px;
+    width: 1350px;
+    overflow: inherit;
+}
+#hp{
+    background-color: hsl(0, 79%, 46%) ;
+    width: fit-content;
+    display: inline-block;
+    border-radius: 5px;
+    color: snow;
+    cursor: pointer;
+    margin: 5px;
+}
+#hd{
+    background-color: hsl(0, 79%, 46%) ;
+    width: fit-content;
+    display:inline-block;
+    border-radius: 5px;
+    color: snow;
+    cursor: pointer;;
+    margin: 5px;
+    position: absolute;
+}
+        </style>
+
+    </head>
+    <body>
+        <div class="he">
+            <img src="au logo.png" height="150" id="img1"><br>
+            <h1 id="h">AUJRC NAVIGATION MAP</h1>
+
+        </div>
+
+        <div class="ha">
+
+             <details id="hp">
+                <summary>List Of The Buildings</summary>
+
+                <a><button>Building A</button></a><br>
+                <a><button>Building B</button></a><br>
+            </details>
+
+             <details id="hd">
+                <summary>List Of The Floors</summary>
+
+                <a><button>Building A</button></a><br>
+                <a><button>Building B</button></a><br>
+            </details>
+
+        </div>
+
+        <hr>    
+
+        <img src="map.png" alt="AUJRC MAP" id="map">
+    </body>
+</html>
